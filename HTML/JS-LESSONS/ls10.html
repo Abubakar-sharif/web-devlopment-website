@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lesson 10</title>
+	<link rel="stylesheet" type="text/css" href="../../CSS/lessons.css">
+</head>
+<body>
+<header id="navbar">
+	<div class="container">
+		<span id="brand-name">WebProgramming</span>
+		<ul class="links">
+			<a href="../index.html">
+				<li>Home</li>
+			</a>
+			<a href="../about.html">
+				<li>About</li>
+			</a>
+			<a href="../contactus.html">
+				<li>ContactUs</li>
+			</a>
+		</ul>
+	</div>
+</header>
+<div class="container">
+<h1>Lesson 10</h1>
+<p>
+	JavaScript Variable Scope
+The scope of a variable is the region of your program in which it is defined. JavaScript 
+variables have only two scopes.
+  Global Variables: A global variable has global scope which means it  can be
+defined anywhere in your JavaScript code.
+  Local Variables: A local variable will be visible only within a function where it 
+is defined. Function parameters are always local to that function
+</p>
+<p>
+	27
+JavaScript Variable Scope
+The scope of a variable is the region of your program in which it is defined. JavaScript 
+variables have only two scopes.
+  Global Variables: A global variable has global scope which means it  can be
+defined anywhere in your JavaScript code.
+  Local Variables: A local variable will be visible only within a function where it 
+is defined. Function parameters are always local to that function.
+Within the body of a function, a local variable takes precedence over a global variable 
+with the same name. If you declare a local variable or function parameter with the 
+same name as a global variable, you effectively hide the global variable. Take a look 
+into the following example.
+&lt;script type="text/javascript"&gt;
+&lt;!--var myVar = "global"; // Declare a global variable
+function checkscope( ) {
+var myVar = "local"; // Declare a local variable
+document.write(myVar);
+}
+//--&gt;
+&lt;/script&gt;
+It will produce the following result:
+Local
+JavaScript Variable Names
+While naming your variables in JavaScript, keep the following rules in mind. 
+
+  You  should  not  use  any  of  the  JavaScript  reserved  keywords  as  a  variable 
+name. These keywords are mentioned in the next section. For example, break
+or boolean variable names are not valid.
+  JavaScript variable names should not start with a numeral (0-9). They must 
+begin  with  a  letter  or  an  underscore  character.  For  example, 123test is  an 
+invalid variable name but _123test is a valid one.
+  JavaScript variable names are case-sensitive. For example, Name and name
+are two different variables.
+</p>
+</div>
+<div class="links">
+<a href="ls9.html">prev</a>
+<a href="ls1.html">1</a>
+<a href="ls2.html">2</a>
+<a href="ls3.html">3</a>
+<a href="ls4.html">4</a>
+<a href="ls5.html">5</a>
+<a href="ls6.html">6</a>
+<a href="ls7.html">7</a>
+<a href="ls8.html">8</a>
+<a href="ls9.html">9</a>
+<a href="ls10.html">10</a>
+</div>
+<footer>
+	<div class="container">
+		Copyright &copy; 2021 WebProgramming
+	<a href="#">
+		<img width="2%" height="2%" src="../../IMAGES/facebook-brands.svg">
+	</a>
+	<a href="#">
+		<img width="2%" height="2%" src="../../IMAGES/instagram-brands.svg">
+	</a>
+	<img src="">
+	</div>
+</footer>
+</body>
+</html>

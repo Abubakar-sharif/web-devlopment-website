@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lesson 5</title>
+	<link rel="stylesheet" type="text/css" href="../../CSS/lessons.css">
+</head>
+<body>
+<header id="navbar">
+	<div class="container">
+		<span id="brand-name">WebProgramming</span>
+		<ul class="links">
+			<a href="../index.html">
+				<li>Home</li>
+			</a>
+			<a href="../about.html">
+				<li>About</li>
+			</a>
+			<a href="../contactus.html">
+				<li>ContactUs</li>
+			</a>
+		</ul>
+	</div>
+</header>
+<div class="container">
+<h1>Lesson 5</h1>
+<p>
+	The Attribute Selectors
+You can also apply styles to  HTML  elements with particular attributes. The style rule below 
+will match all the input elements having a type attribute with a value of text:
+input[type="text"]{
+color: #000000; 
+}
+The advantage to this method is that the &lt;input type="submit" /&gt; element is unaffected, and 
+the color applied only to the desired text fields.
+There are following rules applied to attribute selector.
+  p[lang] - Selects all paragraph elements with a lang attribute.
+  p[lang="fr"] -  Selects  all  paragraph  elements  whose lang attribute  has  a  value  of 
+exactly "fr".
+  p[lang~="fr"] -  Selects  all  paragraph  elements  whose lang attribute  contains  the 
+word "fr".
+  p[lang|="en"] - Selects all paragraph elements whose lang attribute contains values 
+that are exactly "en", or begin with "en-".
+
+</p>
+<p>
+	Multiple Style Rules
+You may need to define multiple style rules for a single element. You can define these rules 
+to combine multiple properties and corresponding values into a single block as defined in the 
+following example:
+h1 {
+color: #36C;
+font-weight: normal;
+letter-spacing: .4em;
+margin-bottom: 1em;
+text-transform: lowercase;
+} 
+</p>
+</div>
+<div class="links">
+<a href="ls4.html">prev</a>
+<a href="ls1.html">1</a>
+<a href="ls2.html">2</a>
+<a href="ls3.html">3</a>
+<a href="ls4.html">4</a>
+<a href="ls5.html">5</a>
+<a href="ls6.html">6</a>
+<a href="ls7.html">7</a>
+<a href="ls8.html">8</a>
+<a href="ls9.html">9</a>
+<a href="ls10.html">10</a>
+<a href="ls6.html">next</a>
+</div>
+<footer>
+	<div class="container">
+		Copyright &copy; 2021 WebProgramming
+	<a href="#">
+		<img width="2%" height="2%" src="../../IMAGES/facebook-brands.svg">
+	</a>
+	<a href="#">
+		<img width="2%" height="2%" src="../../IMAGES/instagram-brands.svg">
+	</a>
+	<img src="">
+	</div>
+</footer>
+</body>
+</html>

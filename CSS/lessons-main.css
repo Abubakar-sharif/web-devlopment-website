@@ -1,0 +1,166 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.75 ),rgba(0,0,0,0.75)), url("../IMAGES/backgroungimg.jpg");	
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: white;
+}
+#brand-name{
+ 	margin-top: 35px;
+ 	margin-bottom: 30px;
+ 	font-size: 25px;
+	padding-right: 20%;
+	text-decoration: bold;
+}
+#navbar a{
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+}
+
+
+#navbar a:hover{
+	color:black;
+	font-size: 35px;
+}
+
+#navbar{
+	background-color: #4e4e4c;
+	color: white;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#navbar ul{
+	padding: 0;
+	display:inline;
+}
+
+#navbar li{
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+}
+
+	.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+h1{
+	color: white;
+}
+.boxes{
+			display: inline-flex;
+			margin-top: 120px;
+		}
+		.boxes2{
+			display: inline-flex;
+			margin-top: 50px;
+		}
+		.ls1{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			text-align: center;
+		}
+		.ls2{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		
+		}
+		.ls3{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		}
+		.ls4{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		}
+		.ls5{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		
+		}
+		.ls6{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			text-align: center;
+}
+		.ls7{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		}
+		.ls8{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		
+		}
+		.ls9{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		}
+		.ls10{
+			width: 120px;
+			height: 55px;
+			padding-top: 40px;
+			background-color: #808080;
+			margin-left: 80px;
+			text-align: center;
+		}
+.links{
+	margin-left:30%;
+}
+.links a{
+	text-decoration: none;
+	padding: 5px;
+	color: blue;
+
+}
+footer{
+	background-color: #4e4e4c;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 25px;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

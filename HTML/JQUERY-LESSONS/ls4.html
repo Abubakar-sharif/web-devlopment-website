@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lesson 4</title>
+	<link rel="stylesheet" type="text/css" href="../../CSS/lessons.css">
+</head>
+<body>
+<header id="navbar">
+	<div class="container">
+		<span id="brand-name">WebProgramming</span>
+		<ul class="links">
+			<a href="../index.html">
+				<li>Home</li>
+			</a>
+			<a href="../about.html">
+				<li>About</li>
+			</a>
+			<a href="../contactus.html">
+				<li>ContactUs</li>
+			</a>
+		</ul>
+	</div>
+</header>
+<div class="container">
+<h1>Lesson 4</h1>
+	<h2>Arguments</h2>
+<p>
+JavaScript  variable  arguments  is  a  kind  of  array  which  has  length  property.  Following  example
+shows it very well:
+function func(x){
+console.log(typeof x, arguments.length);
+}
+func();  //==> "undefined", 0
+func(1);  //==> "number", 1
+func("1", "2", "3");  //==> "string", 3
+The  arguments  object  also  has  a  callee  property,  which  refers  to  the  function  you're  inside.
+For example:
+function func() { 
+
+return arguments.callee; 
+}
+func();  // ==> func
+</p>
+	<h2>Context</h2>
+<p>
+JavaScript  famous  keyword  this  always  refers  to  the  current  context.  Within  a  function
+thiscontext can change, depending on how the function is called:
+$(document).ready(function() {
+// this refers to window.document
+});
+$("div").click(function() {
+// this refers to a div DOM element
+});
+You can specify the context for a function call using the function-built-in methods call() and
+apply() methods. The difference between them is how they pass arguments. Call passes all
+arguments  through  as  arguments  to  the  function,  while  apply  accepts  an  array  as  the
+arguments.
+function scope() {
+console.log(this, arguments.length);
+}
+scope() // window, 0
+scope.call("foobar", [1,2]);  //==> "foobar", 1
+scope.apply("foobar", [1,2]); //==> "foobar", 2
+</p>
+</div>
+<div class="links">
+<a href="ls3.html">prev</a>
+<a href="ls1.html">1</a>
+<a href="ls2.html">2</a>
+<a href="ls3.html">3</a>
+<a href="ls4.html">4</a>
+<a href="ls5.html">5</a>
+<a href="ls6.html">6</a>
+<a href="ls7.html">7</a>
+<a href="ls8.html">8</a>
+<a href="ls9.html">9</a>
+<a href="ls10.html">10</a>
+<a href="ls5.html">next</a>
+</div>
+<footer>
+	<div class="container">
+		Copyright &copy; 2021 WebProgramming
+	<a href="#">
+		<img width="2%" height="2%" src="../../IMAGES/facebook-brands.svg">
+	</a>
+	<a href="#">
+		<img width="2%" height="2%" src="../../IMAGES/instagram-brands.svg">
+	</a>
+	<img src="">
+	</div>
+</footer>
+</body>
+</html>
